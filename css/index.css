@@ -23,7 +23,8 @@ opacity: 0;transform: translate(25px, 0);
 .animate-enter12 {
   animation: animate-enter12-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: translate(225px, 0);
+opacity: 0;
+transform: translate(225px, 0);
 }
 .animate-enter13 {
   animation: animate-enter13-frames 0.80s ease 0.00s 1 normal forwards;
@@ -33,102 +34,122 @@ opacity: 0;
 .animate-enter14 {
   animation: animate-enter14-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter15 {
   animation: animate-enter15-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter16 {
   animation: animate-enter16-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter17 {
   animation: animate-enter17-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter18 {
   animation: animate-enter18-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter19 {
   animation: animate-enter19-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter2 {
   animation: animate-enter2-frames 0.60s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: translate(-225px, 0);
+opacity: 0;
+transform: translate(-225px, 0);
 }
 .animate-enter20 {
   animation: animate-enter20-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter21 {
   animation: animate-enter21-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter22 {
   animation: animate-enter22-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter23 {
   animation: animate-enter23-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter24 {
   animation: animate-enter24-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter25 {
   animation: animate-enter25-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter26 {
   animation: animate-enter26-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter27 {
   animation: animate-enter27-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter28 {
   animation: animate-enter28-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter29 {
   animation: animate-enter29-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter3 {
   animation: animate-enter3-frames 0.60s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: translate(225px, 0);
+opacity: 0;
+transform: translate(225px, 0);
 }
 .animate-enter30 {
   animation: animate-enter30-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter31 {
   animation: animate-enter31-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .animate-enter4 {
   animation: animate-enter4-frames 2.00s ease 0.00s 1 normal forwards;
@@ -138,22 +159,26 @@ opacity: 0;transform: translate(-25px, 0);
 .animate-enter5 {
   animation: animate-enter5-frames 0.80s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: translate(-225px, 0);
+opacity: 0;
+transform: translate(-225px, 0);
 }
 .animate-enter6 {
   animation: animate-enter6-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: translate(-225px, 0);
+opacity: 0;
+transform: translate(-225px, 0);
 }
 .animate-enter7 {
   animation: animate-enter7-frames 0.80s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: translate(225px, 0);
+opacity: 0;
+transform: translate(225px, 0);
 }
 .animate-enter8 {
   animation: animate-enter8-frames 1.00s ease 0.00s 1 normal forwards;
   display: block;
-opacity: 0;transform: translate(225px, 0);
+opacity: 0;
+transform: translate(225px, 0);
 }
 .animate-enter9 {
   animation: animate-enter9-frames 1.00s ease 0.00s 1 normal forwards;
@@ -214,7 +239,8 @@ opacity: 0;
   text-align: left;
   white-space: nowrap;
   width: auto;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .about-us-mVcCxc {
   background-color: transparent;
@@ -231,7 +257,8 @@ opacity: 0;transform: scale(0.8);
   text-align: left;
   white-space: nowrap;
   width: auto;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .auto-flex-v4buX5 {
   align-items: center;
@@ -504,7 +531,8 @@ opacity: 0;transform: scale(0.8);
   margin-right: 0.0px;
   position: relative;
   width: 776px;
-opacity: 0;transform: translate(225px, 0);
+opacity: 0;
+transform: translate(225px, 0);
 }
 .index .by-lorem-iobsim-mfTDSa {
   background-color: transparent;
@@ -548,7 +576,8 @@ opacity: 0;transform: translate(-25px, 0);
   text-align: left;
   white-space: nowrap;
   width: auto;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .drop-menu-K9hOVg {
   background-color: transparent;
@@ -573,7 +602,8 @@ opacity: 0;transform: scale(0.8);
   text-align: left;
   white-space: nowrap;
   width: auto;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .facebook-YPAPLd {
   align-self: flex-end;
@@ -608,7 +638,8 @@ opacity: 0;transform: scale(0.8);
   text-align: left;
   white-space: nowrap;
   width: auto;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .group-14916-ELSGO3 {
   background-color: transparent;
@@ -703,7 +734,8 @@ opacity: 0;
   margin-left: 116px;
   position: relative;
   width: 960px;
-opacity: 0;transform: translate(225px, 0);
+opacity: 0;
+transform: translate(225px, 0);
 }
 .index .group-17952-HlxExE {
   background-color: transparent;
@@ -737,7 +769,8 @@ opacity: 0;transform: translate(225px, 0);
   margin-top: 36px;
   position: relative;
   width: 731px;
-opacity: 0;transform: translate(-225px, 0);
+opacity: 0;
+transform: translate(-225px, 0);
 }
 .index .group-17978-mfTDSa {
   background-color: transparent;
@@ -747,7 +780,8 @@ opacity: 0;transform: translate(-225px, 0);
   margin-top: 31px;
   position: relative;
   width: 729px;
-opacity: 0;transform: translate(-225px, 0);
+opacity: 0;
+transform: translate(-225px, 0);
 }
 .index .hatch-11H6WR {
   align-self: flex-start;
@@ -757,7 +791,8 @@ opacity: 0;transform: translate(-225px, 0);
   height: 125px;
   position: relative;
   width: 125px;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .how-would---arcitects-9x11xq {
   background-color: transparent;
@@ -774,7 +809,8 @@ opacity: 0;transform: scale(0.8);
   text-align: left;
   white-space: nowrap;
   width: auto;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .infohatchcomsa-NdZ7l8 {
   background-color: transparent;
@@ -790,7 +826,8 @@ opacity: 0;transform: scale(0.8);
   text-align: left;
   white-space: nowrap;
   width: auto;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .insta-YPAPLd {
   background-color: transparent;
@@ -805,7 +842,7 @@ opacity: 0;transform: scale(0.8);
   color: var(--whisper);
   flex-shrink: 0;
   font-family: 'Gilroy-Light', Helvetica, Arial, serif;
-  font-size: 75px;
+  font-size: 68px;
   font-style: normal;
   font-weight: 300;
   height: 63px;
@@ -832,7 +869,8 @@ opacity: 0;transform: scale(0.8);
   text-align: left;
   white-space: nowrap;
   width: auto;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .line-1-rjspPX {
   background-color: transparent;
@@ -925,7 +963,8 @@ opacity: 0;
   text-align: left;
   white-space: nowrap;
   width: auto;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .lorem-ipsu-edjustifed-bXJfTw {
   background-color: transparent;
@@ -978,7 +1017,8 @@ opacity: 0;transform: scale(0.8);
   text-align: left;
   white-space: nowrap;
   width: auto;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .overlap-group-v4buX5 {
   background-color: transparent;
@@ -1006,7 +1046,8 @@ opacity: 0;transform: scale(0.8);
   margin-top: 188px;
   position: relative;
   width: 661px;
-opacity: 0;transform: translate(225px, 0);
+opacity: 0;
+transform: translate(225px, 0);
 }
 .index .path-28581-MwnjdL {
   background-color: transparent;
@@ -1016,7 +1057,8 @@ opacity: 0;transform: translate(225px, 0);
   margin-top: 47px;
   position: relative;
   width: 660px;
-opacity: 0;transform: translate(225px, 0);
+opacity: 0;
+transform: translate(225px, 0);
 }
 .index .path-28581-v4buX5 {
   background-color: transparent;
@@ -1034,7 +1076,8 @@ opacity: 0;transform: translate(225px, 0);
   height: 647px;
   position: relative;
   width: 960px;
-opacity: 0;transform: translate(-225px, 0);
+opacity: 0;
+transform: translate(-225px, 0);
 }
 .index .path-31510-yHmv97 {
   background-color: transparent;
@@ -1514,7 +1557,8 @@ opacity: 0;transform: translate(-225px, 0);
   text-align: left;
   white-space: nowrap;
   width: auto;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .recen-tly--d-projects-K11Qpc {
   background-color: transparent;
@@ -1531,7 +1575,8 @@ opacity: 0;transform: scale(0.8);
   text-align: left;
   white-space: nowrap;
   width: auto;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .rectangle-768-Ax5ePz {
   background-color: transparent;
@@ -1614,7 +1659,8 @@ opacity: 1;
   height: 16px;
   position: relative;
   width: 16px;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .span0-DQGBs5 {
   color: rgba(247,248,250,1.0);
@@ -1639,7 +1685,8 @@ opacity: 0;transform: scale(0.8);
   margin-top: 14px;
   position: relative;
   width: 16px;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .twitter-YPAPLd {
   align-self: center;
@@ -1691,7 +1738,8 @@ opacity: 0;transform: translate(-25px, 0);
   text-align: left;
   white-space: nowrap;
   width: auto;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .whats-dose-stands-for-9x11xq {
   background-color: transparent;
@@ -1708,7 +1756,8 @@ opacity: 0;transform: scale(0.8);
   text-align: left;
   white-space: nowrap;
   width: auto;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .x1-jfmjnN {
   background-color: transparent;
@@ -1759,7 +1808,8 @@ opacity: 0;transform: scale(0.8);
   text-align: left;
   white-space: nowrap;
   width: auto;
-opacity: 0;transform: scale(0.8);
+opacity: 0;
+transform: scale(0.8);
 }
 .index .youtube-YPAPLd {
   align-self: center;
@@ -1800,7 +1850,8 @@ to{opacity: 1;transform: translate(0,0);}
 }
 @keyframes animate-enter12-frames {
 
-from{opacity: 0;transform: translate(225px, 0);}
+from{opacity: 0;
+transform: translate(225px, 0);}
 to{opacity: 1;transform: translate(0,0);}
 }
 @keyframes animate-enter13-frames {
@@ -1810,102 +1861,122 @@ to{opacity: 1;}
 }
 @keyframes animate-enter14-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter15-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter16-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter17-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter18-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter19-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter2-frames {
 
-from{opacity: 0;transform: translate(-225px, 0);}
+from{opacity: 0;
+transform: translate(-225px, 0);}
 to{opacity: 1;transform: translate(0,0);}
 }
 @keyframes animate-enter20-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter21-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter22-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter23-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter24-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter25-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter26-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter27-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter28-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter29-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter3-frames {
 
-from{opacity: 0;transform: translate(225px, 0);}
+from{opacity: 0;
+transform: translate(225px, 0);}
 to{opacity: 1;transform: translate(0,0);}
 }
 @keyframes animate-enter30-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter31-frames {
 
-from{opacity: 0;transform: scale(0.8);}
+from{opacity: 0;
+transform: scale(0.8);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes animate-enter4-frames {
@@ -1915,22 +1986,26 @@ to{opacity: 1;transform: translate(0,0);}
 }
 @keyframes animate-enter5-frames {
 
-from{opacity: 0;transform: translate(-225px, 0);}
+from{opacity: 0;
+transform: translate(-225px, 0);}
 to{opacity: 1;transform: translate(0,0);}
 }
 @keyframes animate-enter6-frames {
 
-from{opacity: 0;transform: translate(-225px, 0);}
+from{opacity: 0;
+transform: translate(-225px, 0);}
 to{opacity: 1;transform: translate(0,0);}
 }
 @keyframes animate-enter7-frames {
 
-from{opacity: 0;transform: translate(225px, 0);}
+from{opacity: 0;
+transform: translate(225px, 0);}
 to{opacity: 1;transform: translate(0,0);}
 }
 @keyframes animate-enter8-frames {
 
-from{opacity: 0;transform: translate(225px, 0);}
+from{opacity: 0;
+transform: translate(225px, 0);}
 to{opacity: 1;transform: translate(0,0);}
 }
 @keyframes animate-enter9-frames {
@@ -1938,3 +2013,7 @@ to{opacity: 1;transform: translate(0,0);}
 from{opacity: 0;}
 to{opacity: 1;}
 }
+
+
+
+
