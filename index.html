@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/dropdown-menu.css" />
+    <style>
+      @font-face {
+        font-family: "Gilroy-Light";
+        font-style: normal;
+        font-weight: 300;
+        src: url("https://anima-uploads.s3.amazonaws.com/595ad6e9500609000b928e06/gilroy-light.otf") format("opentype");
+      }
+
+      .component-wrapper a,
+      .screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .full-width-a {
+        width: 100%;
+      }
+
+      .full-height-a {
+        height: 100%;
+      }
+
+      .screen textarea:focus,
+      .screen input:focus {
+        outline: none;
+      }
+
+      .screen *,
+      .component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .container-center-vertical,
+      .container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .container-center-vertical > *,
+      .container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .component-wrapper,
+      .screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --z-index: -1;
+      }
+
+      .auto-animated .container-center-vertical,
+      .auto-animated .container-center-horizontal {
+        opacity: 1;
+      }
+
+      .overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .animate-appear {
+        opacity: 0;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      input:focus {
+        outline: none;
+      }
+      .component-wrapper,
+      .component-wrapper * {
+        pointer-events: none;
+      }
+
+      .component-wrapper a *,
+      .component-wrapper a,
+      .component-wrapper input,
+      .component-wrapper video,
+      .component-wrapper iframe,
+      .listeners-active,
+      .listeners-active * {
+        pointer-events: auto;
+      }
+
+      .hidden,
+      .hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .smart-layers-pointers,
+      .smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .component-wrapper.not-ready,
+      .component-wrapper.not-ready * {
+        visibility: hidden !important;
+      }
+
+      .listeners-active-click,
+      .listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body style="margin: 0; background: rgba(0, 0, 0, 1)">
+    <input type="hidden" id="anPageName" name="page" value="index" />
+    <div class="container-center-horizontal">
+      <div class="index screen">
+        <div class="auto-flex16-C61RwL">
+          <div class="auto-flex6-xtUnfY">
+            <div class="auto-flex2-rtwSNm">
+              <div class="overlap-group-v4buX5">
+                <img class="bg-K9hOVg" src="img/bg@1x.png" />
+                <div class="fade-bg-K9hOVg"></div>
+                <div class="villa-usan--york-2020-K9hOVg animate-enter">
+                  <span class="span0-DQGBs5">VILLA USA<br /></span
+                  ><span class="span1-DQGBs5">NEW YORK /&nbsp;&nbsp;2020</span>
+                </div>
+                <a href="https://a1hub.github.io/hatch-home">
+                  <div class="logo-K9hOVg animate-enter13"></div
+                ></a>
+                <div class="search-icon-K9hOVg">
+                  <img class="line-4xeNsK" src="img/line@1x.png" />
+                  <img class="circle-4xeNsK" src="img/circle@1x.png" />
+                </div>
+                <a href="javascript:ShowOverlay('dropdown-menu', 'animate-appear');">
+                  <div class="drop-menu-K9hOVg">
+                    <img class="line-1-rjspPX" src="img/line-1@1x.png" />
+                    <img class="line-2-rjspPX" src="img/line-2@1x.png" />
+                    <img class="line-3-rjspPX" src="img/line-3@1x.png" /></div
+                ></a>
+                <div class="search-hover-K9hOVg smart-layers-pointers">
+                  <input class="search-jfmjnN" name="search0" placeholder="SEARCH" />
+                  <img class="underline-jfmjnN" src="img/underline@1x.png" />
+                  <img class="x2-jfmjnN" src="img/x1@1x.png" />
+                  <img class="x1-jfmjnN" src="img/x1@1x.png" />
+                </div>
+              </div>
+              <div class="auto-flex-v4buX5">
+                <img class="path-28581-x1oSyv animate-enter2" show-on-scroll src="img/path-28581-1@1x.png" />
+                <div class="x450-sq-m3--2020-march-x1oSyv">450 SQ. M.<br />3 MONTH - PROJECT TIME2020 / MARCH</div>
+              </div>
+              <div class="auto-flex1-v4buX5">
+                <div class="group-17954-z95nc8">
+                  <div class="group-14916-ELSGO3">
+                    <div class="group-14999-pirOxY">
+                      <div class="group-17952-HlxExE">
+                        <div class="group-17953-zCMFT5">
+                          <div class="lorem-ipsu-edjustifed-o3hjZ0 gilroy-light-quill-gray-16px">
+                            Lorem&nbsp;&nbsp;
+                            ipsum&nbsp;&nbsp;dolor&nbsp;&nbsp;sit&nbsp;&nbsp;amet,&nbsp;&nbsp;consetetur&nbsp;&nbsp;sadipscing&nbsp;&nbsp;elitr,&nbsp;&nbsp;sed&nbsp;&nbsp;diam&nbsp;&nbsp;nonumy&nbsp;&nbsp;eirmod&nbsp;&nbsp;<br />tempor&nbsp;&nbsp;invidunt&nbsp;&nbsp;ut&nbsp;&nbsp;labore&nbsp;&nbsp;et&nbsp;&nbsp;dolore
+                            magna aliquyam erat, sed diam voluptua. At vero
+                            <br />eos&nbsp;&nbsp;et&nbsp;&nbsp;accusam&nbsp;&nbsp;et&nbsp;&nbsp;justo&nbsp;&nbsp;duo&nbsp;&nbsp;dolores&nbsp;&nbsp;et&nbsp;&nbsp;ea&nbsp;&nbsp;rebum.
+                            Stet clita kasd gubergren, no sea <br />takimata&nbsp;&nbsp; sanctus&nbsp;&nbsp;
+                            est&nbsp;&nbsp; Lorem&nbsp;&nbsp; ipsum&nbsp;&nbsp; dolor&nbsp;&nbsp;
+                            sit&nbsp;&nbsp;amet.&nbsp;&nbsp;Lorem&nbsp;&nbsp;ipsum&nbsp;&nbsp;dolor&nbsp;&nbsp;sit&nbsp;&nbsp;amet,&nbsp;&nbsp;<br />consetetur&nbsp;&nbsp;sadipscing&nbsp;&nbsp;elitr,&nbsp;&nbsp;sed&nbsp;&nbsp;diam&nbsp;&nbsp;nonumy&nbsp;&nbsp;eirmod&nbsp;&nbsp;tempor&nbsp;&nbsp;invidunt&nbsp;&nbsp;ut&nbsp;&nbsp;labore&nbsp;&nbsp;et
+                            <br />dolore&nbsp;&nbsp;magna&nbsp;&nbsp;aliquyam&nbsp;&nbsp;erat,&nbsp;&nbsp;sed&nbsp;&nbsp;diam
+                            voluptua. At vero eos et accusam et justo duo
+                            <br />dolores&nbsp;&nbsp;et&nbsp;&nbsp;ea&nbsp;&nbsp;rebum.&nbsp;&nbsp;Stet&nbsp;&nbsp;clita&nbsp;&nbsp;kasd&nbsp;&nbsp;gubergren,&nbsp;&nbsp;no&nbsp;&nbsp;sea&nbsp;&nbsp;takimata
+                            sanctus est Lorem <br />Lorem&nbsp;&nbsp;
+                            ipsum&nbsp;&nbsp;dolor&nbsp;&nbsp;sit&nbsp;&nbsp;amet,&nbsp;&nbsp;consetetur&nbsp;&nbsp;sadipscing&nbsp;&nbsp;elitr,&nbsp;&nbsp;sed&nbsp;&nbsp;diam&nbsp;&nbsp;nonumy&nbsp;&nbsp;eirmod&nbsp;&nbsp;<br />tempor&nbsp;&nbsp;invidunt&nbsp;&nbsp;ut&nbsp;&nbsp;labore&nbsp;&nbsp;et&nbsp;&nbsp;dolore
+                            magna aliquyam erat, sed diam voluptua. At vero
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <img class="group-17951-z95nc8 animate-enter3" show-on-scroll src="img/group-17951@1x.png" />
+              </div>
+              <div class="group-17950-v4buX5 animate-enter1" show-on-scroll>
+                <div class="group-17946-uEPjni">
+                  <img class="path-31510-yHmv97" src="img/path-31510@1x.png" />
+                  <img class="path-31511-yHmv97" src="img/path-31511@1x.png" />
+                  <img class="path-31512-yHmv97" src="img/path-31512@1x.png" />
+                </div>
+                <img class="group-17947-uEPjni" src="img/group-17947@1x.png" />
+                <div class="group-17948-uEPjni"></div>
+                <img class="group-17949-uEPjni" src="img/group-17949@1x.png" />
+              </div>
+              <img class="path-28581-v4buX5" src="img/path-28581@1x.png" />
+            </div>
+            <div class="auto-flex5-rtwSNm">
+              <div class="auto-flex3-8y65xc">
+                <div class="by-lorem-iobsim-mfTDSa animate-enter4" show-on-scroll>BY LOREM IOBSIM</div>
+                <div class="group-17978-mfTDSa animate-enter6" show-on-scroll>
+                  <div class="group-14999-SHNz2i">
+                    <div class="lorem-ipsu-edjustifed-ouJPeQ gilroy-light-quill-gray-16px">
+                      Lorem&nbsp;&nbsp;
+                      ipsum&nbsp;&nbsp;dolor&nbsp;&nbsp;sit&nbsp;&nbsp;amet,&nbsp;&nbsp;consetetur&nbsp;&nbsp;sadipscing&nbsp;&nbsp;elitr,&nbsp;&nbsp;sed&nbsp;&nbsp;diam&nbsp;&nbsp;nonumy&nbsp;&nbsp;eirmod&nbsp;&nbsp;<br />tempor&nbsp;&nbsp;invidunt&nbsp;&nbsp;ut&nbsp;&nbsp;labore&nbsp;&nbsp;et&nbsp;&nbsp;dolore
+                      magna aliquyam erat, sed diam voluptua. At vero
+                      <br />eos&nbsp;&nbsp;et&nbsp;&nbsp;accusam&nbsp;&nbsp;et&nbsp;&nbsp;justo&nbsp;&nbsp;duo&nbsp;&nbsp;dolores&nbsp;&nbsp;et
+                    </div>
+                  </div>
+                </div>
+                <div class="intirior-design-mfTDSa">INTIRIOR DESIGN</div>
+                <div class="group-17955-mfTDSa animate-enter5" show-on-scroll>
+                  <div class="group-14999-tZ3jDR">
+                    <div class="lorem-ipsu-edjustifed-bXJfTw gilroy-light-quill-gray-16px">
+                      Lorem&nbsp;&nbsp;
+                      ipsum&nbsp;&nbsp;dolor&nbsp;&nbsp;sit&nbsp;&nbsp;amet,&nbsp;&nbsp;consetetur&nbsp;&nbsp;sadipscing&nbsp;&nbsp;elitr,&nbsp;&nbsp;sed&nbsp;&nbsp;diam&nbsp;&nbsp;nonumy&nbsp;&nbsp;eirmod&nbsp;&nbsp;<br />tempor&nbsp;&nbsp;invidunt&nbsp;&nbsp;ut&nbsp;&nbsp;labore&nbsp;&nbsp;et&nbsp;&nbsp;dolore
+                      magna aliquyam erat, sed diam voluptua. At vero
+                      <br />eos&nbsp;&nbsp;et&nbsp;&nbsp;accusam&nbsp;&nbsp;et&nbsp;&nbsp;justo&nbsp;&nbsp;duo&nbsp;&nbsp;dolores&nbsp;&nbsp;et&nbsp;&nbsp;ea&nbsp;&nbsp;rebum.
+                      Stet clita kasd gubergren, no sea <br />takimata&nbsp;&nbsp; sanctus&nbsp;&nbsp; est&nbsp;&nbsp;
+                      Lorem&nbsp;&nbsp; ipsum&nbsp;&nbsp; dolor&nbsp;&nbsp;
+                      sit&nbsp;&nbsp;amet.&nbsp;&nbsp;Lorem&nbsp;&nbsp;ipsum&nbsp;&nbsp;dolor&nbsp;&nbsp;sit&nbsp;&nbsp;amet,&nbsp;&nbsp;<br />consetetur&nbsp;&nbsp;sadipscing&nbsp;&nbsp;elitr,&nbsp;&nbsp;sed&nbsp;&nbsp;diam&nbsp;&nbsp;nonumy&nbsp;&nbsp;eirmod&nbsp;&nbsp;tempor&nbsp;&nbsp;invidunt&nbsp;&nbsp;ut&nbsp;&nbsp;labore&nbsp;&nbsp;et
+                      <br />dolore&nbsp;&nbsp;magna&nbsp;&nbsp;aliquyam&nbsp;&nbsp;erat,&nbsp;&nbsp;sed&nbsp;&nbsp;diam
+                      voluptua. At vero eos et accusam et justo duo
+                      <br />dolores&nbsp;&nbsp;et&nbsp;&nbsp;ea&nbsp;&nbsp;rebum.&nbsp;&nbsp;Stet&nbsp;&nbsp;clita&nbsp;&nbsp;kasd&nbsp;&nbsp;gubergren,&nbsp;&nbsp;no&nbsp;&nbsp;sea&nbsp;&nbsp;takimata
+                      sanctus est Lorem <br />Lorem&nbsp;&nbsp;
+                      ipsum&nbsp;&nbsp;dolor&nbsp;&nbsp;sit&nbsp;&nbsp;amet,&nbsp;&nbsp;consetetur&nbsp;&nbsp;sadipscing&nbsp;&nbsp;elitr,&nbsp;&nbsp;sed&nbsp;&nbsp;diam&nbsp;&nbsp;nonumy&nbsp;&nbsp;eirmod&nbsp;&nbsp;<br />tempor&nbsp;&nbsp;invidunt&nbsp;&nbsp;ut&nbsp;&nbsp;labore&nbsp;&nbsp;et&nbsp;&nbsp;dolore
+                      magna aliquyam erat, sed diam voluptua. At vero
+                      <br />eos&nbsp;&nbsp;et&nbsp;&nbsp;accusam&nbsp;&nbsp;et&nbsp;&nbsp;justo&nbsp;&nbsp;duo&nbsp;&nbsp;dolores&nbsp;&nbsp;et&nbsp;&nbsp;ea&nbsp;&nbsp;rebum.
+                      Stet clita kasd gubergren, no sea <br />takimata&nbsp;&nbsp; sanctus&nbsp;&nbsp; est&nbsp;&nbsp;
+                      Lorem&nbsp;&nbsp; ipsum&nbsp;&nbsp; dolor&nbsp;&nbsp;
+                      sit&nbsp;&nbsp;amet.&nbsp;&nbsp;Lorem&nbsp;&nbsp;ipsum&nbsp;&nbsp;dolor&nbsp;&nbsp;sit&nbsp;&nbsp;amet,
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="auto-flex4-8y65xc">
+                <img
+                  class="brent-nina-unsplash-1-JmxzWw animate-enter12"
+                  show-on-scroll
+                  src="img/brent-ninaber-gdllhuyn360-unsplash-1@1x.png"
+                />
+                <img class="path-28581-JmxzWw animate-enter7" show-on-scroll src="img/path-28581-2@1x.png" />
+                <img class="path-28581-MwnjdL animate-enter8" show-on-scroll src="img/path-28581-3@1x.png" />
+              </div>
+            </div>
+            <div class="overlap-group1-rtwSNm">
+              <img class="rectangle-768-Ax5ePz animate-enter9" show-on-scroll src="img/rectangle-768@1x.png" />
+              <img class="rectangle-769-Ax5ePz animate-enter10" show-on-scroll src="img/rectangle-769@1x.png" />
+              <img class="rectangle-770-Ax5ePz animate-enter11" show-on-scroll src="img/rectangle-770@1x.png" />
+            </div>
+          </div>
+          <div class="auto-flex15-xtUnfY">
+            <a href="https://a1hub.github.io/hatch-home" class="align-self-flex-start"
+              ><img class="hatch-11H6WR animate-enter31" show-on-scroll src="img/hatch@1x.png"
+            /></a>
+            <div class="auto-flex14-11H6WR">
+              <div class="contact-nh64OX gilroy-light-white-18px animate-enter30" show-on-scroll>CONTACT</div>
+              <div class="auto-flex13-nh64OX">
+                <div class="auto-flex12-6qnxVT">
+                  <img class="send-icon-5udxgX animate-enter29" show-on-scroll src="img/send-icon@1x.png" />
+                  <img class="telephone-5udxgX animate-enter28" show-on-scroll src="img/telephone@1x.png" />
+                </div>
+                <div class="auto-flex10-6qnxVT">
+                  <div class="infohatchcomsa-NdZ7l8 gilroy-light-concord-13px animate-enter26" show-on-scroll>
+                    info@hatch.com.sa
+                  </div>
+                  <div class="x966-556096364-NdZ7l8 gilroy-light-concord-13px animate-enter27" show-on-scroll>
+                    +966-556096364
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="auto-flex11-11H6WR">
+              <div class="auto-flex9-hoocu7">
+                <div class="popular-searches-9x11xq gilroy-light-white-18px animate-enter25" show-on-scroll>
+                  POPULAR SEARCHES
+                </div>
+                <div class="how-would---arcitects-9x11xq gilroy-light-concord-13px animate-enter22" show-on-scroll>
+                  How Would You Describe Hatch Arcitects?
+                </div>
+                <div class="w-hat-are--rchitectst-9x11xq gilroy-light-concord-13px animate-enter23" show-on-scroll>
+                  What Are The Characters Of Hatch Architectst?
+                </div>
+                <div class="whats-dose-stands-for-9x11xq gilroy-light-concord-13px animate-enter24" show-on-scroll>
+                  Whats Dose Hatch Architects Stands For?
+                </div>
+              </div>
+              <div class="auto-flex8-hoocu7">
+                <div class="latest-posts-K11Qpc gilroy-light-white-18px animate-enter21" show-on-scroll>
+                  LATEST POSTS
+                </div>
+                <div class="exceptional-projetcs-K11Qpc gilroy-light-concord-13px animate-enter18" show-on-scroll>
+                  Exceptional Projetcs
+                </div>
+                <div class="featured-projects-K11Qpc gilroy-light-concord-13px animate-enter19" show-on-scroll>
+                  Featured Projects
+                </div>
+                <div class="recen-tly--d-projects-K11Qpc gilroy-light-concord-13px animate-enter20" show-on-scroll>
+                  Recently Added Projects
+                </div>
+              </div>
+              <div class="auto-flex7-hoocu7">
+                <div class="about-hatch-mVcCxc gilroy-light-white-18px animate-enter17" show-on-scroll>ABOUT HATCH</div>
+                <div class="about-us-mVcCxc gilroy-light-concord-13px animate-enter14" show-on-scroll>About Us</div>
+                <div class="lorem-ipsum-mVcCxc gilroy-light-concord-13px animate-enter15" show-on-scroll>
+                  Lorem Ipsum
+                </div>
+                <div class="loreim-ipsiom-mVcCxc gilroy-light-concord-13px animate-enter16" show-on-scroll>
+                  Loreim Ipsiom
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="auto-flex17-C61RwL">
+          <img class="insta-YPAPLd" src="img/insta@1x.png" />
+          <img class="facebook-YPAPLd" src="img/facebook-@1x.png" />
+          <img class="twitter-YPAPLd" src="img/twitter@1x.png" />
+          <div class="linkedin-YPAPLd">
+            <img class="linkedin-n-PyxwkR" src="img/linkedin-n@1x.png" />
+            <img class="linkedin-line-PyxwkR" src="img/linkedin-line@1x.png" />
+            <img class="linkedin-circle-PyxwkR" src="img/linkedin-circle@1x.png" />
+          </div>
+          <img class="youtube-YPAPLd" src="img/youtube@1x.png" />
+        </div>
+      </div>
+    </div>
+    <div id="overlay-dropdown-menu" class="overlay" style="min-height: 8524px">
+      <div class="container-center-horizontal">
+        <div class="dropdown-menu screen">
+          <div class="menu-C61RwL">
+            <div class="rectangle-full-menu-SQ9Gz0"></div>
+            <div class="exit-SQ9Gz0">
+              <img class="path-x-iQKj7u" src="img/path-x@1x.png" />
+              <img class="line-x-iQKj7u" src="img/line-x@1x.png" />
+            </div>
+          <a href="https://a1hub.github.io/hatch-home"><div class="home-SQ9Gz0 gilroy-light-white-30px smart-layers-pointers">Home</div></a>
+          <a href="https://a1hub.github.io/HATCH-arc/"><div class="architecture-SQ9Gz0 gilroy-light-white-30px smart-layers-pointers">Architecture</div></a>
+          <div class="interior-design-SQ9Gz0 gilroy-light-white-30px smart-layers-pointers">Interior design</div>
+          <a href="https://a1hub.github.io/hatch-products"><div class="product-design-SQ9Gz0 gilroy-light-white-30px smart-layers-pointers">product design</div></a>
+          <a href="https://a1hub.github.io/hatch-news/"><div class="news-SQ9Gz0 gilroy-light-white-30px smart-layers-pointers">News</div></a>
+          <a href="https://a1hub.github.io/HATCH-about/"><div class="about-us-SQ9Gz0 gilroy-light-white-30px smart-layers-pointers">About Us</div></a>
+          <a href="https://a1hub.github.io/hatch-contact/"><div class="contact-us-SQ9Gz0 gilroy-light-white-30px smart-layers-pointers">Contact Us</div></a>
+          <a href="https://a1hub.github.io/hatch-team/"><div class="the-team-SQ9Gz0 gilroy-light-white-30px smart-layers-pointers">The Team</div></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var overlay_id = "overlay-dropdown-menu";
+      document.getElementById(overlay_id).addEventListener(
+        "click",
+        function (event) {
+          var e = event || window.event;
+          var clickedDiv = e.toElement || e.target;
+          if (clickedDiv.parentElement.id == overlay_id) {
+            HideOverlay("dropdown-menu", "animate-disappear");
+          }
+        },
+        false
+      );
+    </script>
+    <script>
+      ShowOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") == -1) {
+          document.getElementById(overlayName).className =
+            document.getElementById(overlayName).className + " " + animationName;
+        }
+        if (window.loadAsyncSrc != undefined) {
+          loadAsyncSrc();
+        }
+      };
+      HideOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") != -1) {
+          cssClasses.splice(-1);
+          cssClasses.push(animationName);
+          document.getElementById(overlayName).className = cssClasses.join(" ");
+
+          cssClasses.splice(-1);
+          setTimeout(function () {
+            document.getElementById(overlayName).className = cssClasses.join(" ");
+          }, 1100);
+        }
+        var vids = document.getElementsByTagName("video");
+        if (vids) {
+          for (var i = 0; i < vids.length; i++) {
+            var video = vids.item(i);
+            video.pause();
+          }
+        }
+      };
+    </script>
+    <script>
+      function ShowOnScroll() {
+        this.toShow = [];
+        this.nextEventY = undefined;
+      }
+
+      ShowOnScroll.prototype.show = function (e) {
+        e.style.display = "";
+      };
+
+      ShowOnScroll.prototype.hide = function (e) {
+        e.style.display = "none";
+      };
+
+      ShowOnScroll.prototype.getTop = function (e) {
+        if (e.Top != undefined && e.Top != 0) {
+          return e.Top;
+        }
+        var top = 0;
+        var iter = e;
+        do {
+          top += iter.offsetTop || 0;
+          iter = iter.offsetParent;
+        } while (iter);
+        e.Top = top;
+        return top;
+      };
+
+      ShowOnScroll.prototype.onScroll = function () {
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
+          return;
+        }
+        this.nextEventY = undefined;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            this.show(e);
+            this.toShow.shift();
+            i--;
+          } else {
+            this.nextEventY = top;
+            break;
+          }
+        }
+      };
+
+      ShowOnScroll.prototype.resetScrolling = function () {
+        // Clear state
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          this.show(e);
+        }
+        this.toShow = [];
+        this.nextEventY == undefined;
+
+        // Collect items
+        var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
+        itemsToShowOnScroll = itemsToShowOnScroll.filter(function (e) {
+          return e.getAttribute("show-on-scroll") != undefined;
+        });
+        var getTop = this.getTop;
+        itemsToShowOnScroll.sort(function (a, b) {
+          return getTop(a) - getTop(b);
+        });
+        for (var i = 0; i < itemsToShowOnScroll.length; i++) {
+          var e = itemsToShowOnScroll[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            continue;
+          }
+          this.toShow.push(e);
+          this.hide(e);
+          this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
+        }
+      };
+
+      ShowOnScroll.prototype.handleEvent = function (e) {
+        switch (e.type) {
+          case "scroll":
+            this.onScroll();
+            break;
+          case "resize":
+            this.resetScrolling();
+            break;
+        }
+      };
+
+      ShowOnScroll.prototype.init = function () {
+        this.resetScrolling();
+        window.addEventListener("scroll", this);
+        window.addEventListener("resize", this);
+      };
+
+      // After anima-src
+      setTimeout(function () {
+        var instShowOnScroll = new ShowOnScroll();
+        instShowOnScroll.init();
+      }, 250);
+    </script>
+  </body>
+</html>
